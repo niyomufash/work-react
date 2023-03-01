@@ -1,0 +1,108 @@
+
+body {
+  background-image: url(../public/images.jpg);
+}
+.contain b{
+  padding: 1.4em;
+}
+.App {
+  text-align: center;
+ /* background-color: rgb(188, 171, 171); */
+ color: white;
+ /* background: #222; */
+ /* background-image: url(../public/images.jpg); */
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.App #hd {
+  color: black;
+}
+
+
+
+
+.App input{
+  width: 50%;
+  height: 30px;
+  margin-top: .1em;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #000000d0;
+  color: white;
+  font-family: inherit;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.list {
+  list-style: none;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 30%;
+  background: #000000d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 33.3%;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#buto {
+  color:white;
+  background-color: rgb(5, 23, 5);
+  width: 200px;
+  height: 40px;
+  margin: 17px 17px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.App .downbtn {
+  
+}
